@@ -20,6 +20,7 @@ const NavBar: React.FC = () => {
           <input type="text" placeholder="Іздеу..." />
           <FaSearch />
         </div>
+        
       </div>
     </nav>
   );

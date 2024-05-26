@@ -1,16 +1,14 @@
 .navbar {
     background-color: #f8f9fa;
     padding: 10px 0;
-    
   }
   
   .navbar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1176px;
     margin: 0 auto;
-    padding: 0 12px;
   }
   
   .navbar-links a {
