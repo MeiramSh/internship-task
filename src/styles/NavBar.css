@@ -1,6 +1,7 @@
 .navbar {
     background-color: #f8f9fa;
     padding: 10px 0;
+    
   }
   
   .navbar-container {
@@ -9,7 +10,7 @@
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 12px;
   }
   
   .navbar-links a {
@@ -27,13 +28,5 @@
   .navbar-search input {
     padding: 5px;
     font-size: 16px;
-  }
-  
-  .navbar-search button {
-    padding: 5px 10px;
-    background-color: #007bff;
-    border: none;
-    color: white;
-    cursor: pointer;
   }
   

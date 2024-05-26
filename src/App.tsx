@@ -8,17 +8,18 @@ function App() {
 
     <div>
       <header>
-        <h1>Magzhan.kz</h1>
+        <div className='logo-container'>
+          <h1 className='website-logo'>Magzhan.kz</h1>
+        </div>
+        <NavBar />
       </header>
       <div className="app">
-        <NavBar />
         <main className="main-content">
           <Posts />
         </main>
         <Footer />
       </div>
     </div>
-
   );
 }
 

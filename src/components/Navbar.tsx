@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/NavBar.css';
+import {FaSearch} from 'react-icons/fa'
 
 const NavBar: React.FC = () => {
   return (
@@ -17,7 +18,7 @@ const NavBar: React.FC = () => {
         </div>
         <div className="navbar-search">
           <input type="text" placeholder="Іздеу..." />
-          <button><i className="fas fa-search"></i></button>
+          <FaSearch />
         </div>
       </div>
     </nav>

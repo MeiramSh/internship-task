@@ -57,7 +57,7 @@ const Posts: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
   const [currentPage, setCurrentPage] = useState<number>(0);
-  const postsPerPage = 10;
+  const postsPerPage = 9;
 
   useEffect(() => {
     fetchPosts()
